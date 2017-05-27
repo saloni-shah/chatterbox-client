@@ -47,6 +47,12 @@ app.fetch = function() {
   });
 };
 
+app.filterMessages = function() {
+  //add an event listener to #roomSelect
+  //filter rooms based on room class
+}; 
+
+
 app.clearMessages = function() {
   document.getElementById('chats').innerHTML = '';
 };
@@ -59,6 +65,7 @@ app.renderMessage = function(message) {
   textContent.text(message.text);
   messageDiv.append(usernameTitle);
   messageDiv.append(textContent);
+  // add a room class to messageDiv
   $('#chats').append(messageDiv);
 };
 
