@@ -5,7 +5,7 @@ body {
     font-family: arial, sans-serif;
 }
 
-#main, #chats {
+#main, #chats, #friend {
     width: 500px;
     margin: auto;
     text-align: left;
@@ -59,6 +59,11 @@ form input[type=text] {
     padding: 5px;
 }
 
+h3 {
+    text-align:center;
+}
+
+
 .chat {
     padding: 5px;
     margin-bottom: 5px;
@@ -83,8 +88,7 @@ form input[type=text] {
     padding: 10px;
 }
 
-.friend {
-    color: #fff;
-    background-color: #0090da;
-}
+
+
+
 
